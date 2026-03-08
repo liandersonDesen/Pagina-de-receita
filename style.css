@@ -72,6 +72,19 @@ h3 {
     margin-left: 32px;
 }
 
+.ingredient-item input[type="checkbox"] {
+    vertical-align: middle; 
+    cursor: pointer;
+}
+.ingredient-item label {
+    vertical-align: middle; 
+    cursor: pointer;
+}
+.ingredient-item input:checked + label {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
 footer {
     background-color: rgba(61, 43, 31, 0.7);padding: 20px;
     text-align: center;
