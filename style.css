@@ -133,7 +133,7 @@ footer a:hover {
     .intro-text {
         font-size: 0.85rem !important; 
         line-height: 1.4 !important;
-        margin-left: 0 !important;
+        margin-left: 8px !important;
         padding: 0 5px;
     }
 
@@ -151,6 +151,7 @@ footer a:hover {
     .instructions li {
         font-size: 0.85rem !important;
         margin-bottom: 10px;
+        margin-left: 16px;
     }
 
     footer {
