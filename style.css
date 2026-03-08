@@ -1,0 +1,19 @@
+body{
+    background-image: url(assets/feijoada.png);
+    background-size: cover;
+}
+
+.recipe-card{
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 24px;
+    margin: 48px;
+}
+
+.recipe-img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
